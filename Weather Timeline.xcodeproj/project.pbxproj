@@ -14,6 +14,29 @@
 		73A23192295FE0A1009FE017 /* Weather_TimelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A23191295FE0A1009FE017 /* Weather_TimelineTests.swift */; };
 		73A2319C295FE0A1009FE017 /* Weather_TimelineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A2319B295FE0A1009FE017 /* Weather_TimelineUITests.swift */; };
 		73A2319E295FE0A1009FE017 /* Weather_TimelineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A2319D295FE0A1009FE017 /* Weather_TimelineUITestsLaunchTests.swift */; };
+		73A231AD295FED71009FE017 /* AnimatedIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231AC295FED71009FE017 /* AnimatedIcon.swift */; };
+		73A231AF295FF1EC009FE017 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231AE295FF1EB009FE017 /* TimelineView.swift */; };
+		73A231B4295FFD38009FE017 /* Next24HoursCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231B3295FFD38009FE017 /* Next24HoursCard.swift */; };
+		73A231B629600308009FE017 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231B529600308009FE017 /* Connector.swift */; };
+		73A231BD2960108D009FE017 /* AlertCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231BC2960108D009FE017 /* AlertCard.swift */; };
+		73A231BF2960163C009FE017 /* Next24HoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231BE2960163C009FE017 /* Next24HoursView.swift */; };
+		73A231C62960214A009FE017 /* GeometryGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231C52960214A009FE017 /* GeometryGetter.swift */; };
+		73A231C9296023F5009FE017 /* TextWithUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231C8296023F5009FE017 /* TextWithUnit.swift */; };
+		73A231CE2960DDEA009FE017 /* HeaderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231CD2960DDEA009FE017 /* HeaderCard.swift */; };
+		73A231D12960E483009FE017 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231D02960E483009FE017 /* DayView.swift */; };
+		73A231D32960E913009FE017 /* IconStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231D22960E913009FE017 /* IconStack.swift */; };
+		73A231D52960EEBC009FE017 /* HourCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A231D42960EEBC009FE017 /* HourCard.swift */; };
+		73AC122A2961077700E88854 /* ColorSchemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC12292961077700E88854 /* ColorSchemeExtension.swift */; };
+		73AC123229610D3E00E88854 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC123129610D3E00E88854 /* LocationManager.swift */; };
+		73AC123629610E7900E88854 /* AnimtedIconExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC123529610E7900E88854 /* AnimtedIconExtension.swift */; };
+		73AC123829611AAC00E88854 /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC123729611AAC00E88854 /* LocationCard.swift */; };
+		73AC123A29611B7D00E88854 /* LocationCard_Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AC123929611B7D00E88854 /* LocationCard_Loading.swift */; };
+		73FF5EAD29615F2B00D690BE /* WeatherDescriptionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF5EAC29615F2B00D690BE /* WeatherDescriptionExtension.swift */; };
+		73FF5EB22961884F00D690BE /* WeatherSummaryFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF5EB12961884F00D690BE /* WeatherSummaryFunction.swift */; };
+		73FF5EB52961897500D690BE /* WeatherIsPrecipExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF5EB42961897500D690BE /* WeatherIsPrecipExtension.swift */; };
+		73FF5EB7296267C400D690BE /* DayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF5EB6296267C400D690BE /* DayCard.swift */; };
+		73FF5EBA2962C26700D690BE /* HourCard_Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF5EB92962C26700D690BE /* HourCard_Wrapper.swift */; };
+		73FF5EBE2962CA7700D690BE /* DayWeatherHourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FF5EBD2962CA7700D690BE /* DayWeatherHourly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +67,31 @@
 		73A23197295FE0A1009FE017 /* Weather TimelineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather TimelineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A2319B295FE0A1009FE017 /* Weather_TimelineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_TimelineUITests.swift; sourceTree = "<group>"; };
 		73A2319D295FE0A1009FE017 /* Weather_TimelineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_TimelineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73A231AC295FED71009FE017 /* AnimatedIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIcon.swift; sourceTree = "<group>"; };
+		73A231AE295FF1EB009FE017 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		73A231B3295FFD38009FE017 /* Next24HoursCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Next24HoursCard.swift; sourceTree = "<group>"; };
+		73A231B529600308009FE017 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		73A231B929600A85009FE017 /* Weather-Timeline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Weather-Timeline-Info.plist"; sourceTree = SOURCE_ROOT; };
+		73A231BC2960108D009FE017 /* AlertCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertCard.swift; sourceTree = "<group>"; };
+		73A231BE2960163C009FE017 /* Next24HoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next24HoursView.swift; sourceTree = "<group>"; };
+		73A231C52960214A009FE017 /* GeometryGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryGetter.swift; sourceTree = "<group>"; };
+		73A231C8296023F5009FE017 /* TextWithUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithUnit.swift; sourceTree = "<group>"; };
+		73A231CD2960DDEA009FE017 /* HeaderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCard.swift; sourceTree = "<group>"; };
+		73A231D02960E483009FE017 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		73A231D22960E913009FE017 /* IconStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconStack.swift; sourceTree = "<group>"; };
+		73A231D42960EEBC009FE017 /* HourCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourCard.swift; sourceTree = "<group>"; };
+		73AC12292961077700E88854 /* ColorSchemeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeExtension.swift; sourceTree = "<group>"; };
+		73AC123129610D3E00E88854 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		73AC123529610E7900E88854 /* AnimtedIconExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimtedIconExtension.swift; sourceTree = "<group>"; };
+		73AC123729611AAC00E88854 /* LocationCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
+		73AC123929611B7D00E88854 /* LocationCard_Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard_Loading.swift; sourceTree = "<group>"; };
+		73FF5EAB29615B0400D690BE /* Weather Timeline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Weather Timeline.entitlements"; sourceTree = "<group>"; };
+		73FF5EAC29615F2B00D690BE /* WeatherDescriptionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDescriptionExtension.swift; sourceTree = "<group>"; };
+		73FF5EB12961884F00D690BE /* WeatherSummaryFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSummaryFunction.swift; sourceTree = "<group>"; };
+		73FF5EB42961897500D690BE /* WeatherIsPrecipExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherIsPrecipExtension.swift; sourceTree = "<group>"; };
+		73FF5EB6296267C400D690BE /* DayCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCard.swift; sourceTree = "<group>"; };
+		73FF5EB92962C26700D690BE /* HourCard_Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourCard_Wrapper.swift; sourceTree = "<group>"; };
+		73FF5EBD2962CA7700D690BE /* DayWeatherHourly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherHourly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +142,15 @@
 		73A2317F295FE09F009FE017 /* Weather Timeline */ = {
 			isa = PBXGroup;
 			children = (
+				73FF5EAB29615B0400D690BE /* Weather Timeline.entitlements */,
+				73FF5EB82962C25A00D690BE /* Wrappers */,
+				73FF5EB32961885F00D690BE /* Functions */,
+				73FF5EAE2961873100D690BE /* Extensions */,
+				73AC123429610D6B00E88854 /* Components */,
+				73AC123329610D5F00E88854 /* Views */,
+				73AC123029610D3200E88854 /* Managers */,
+				73A231B929600A85009FE017 /* Weather-Timeline-Info.plist */,
 				73A23180295FE09F009FE017 /* Weather_TimelineApp.swift */,
-				73A23182295FE09F009FE017 /* ContentView.swift */,
 				73A23184295FE0A1009FE017 /* Assets.xcassets */,
 				73A23186295FE0A1009FE017 /* Preview Content */,
 			);
@@ -125,6 +180,80 @@
 				73A2319D295FE0A1009FE017 /* Weather_TimelineUITestsLaunchTests.swift */,
 			);
 			path = "Weather TimelineUITests";
+			sourceTree = "<group>";
+		};
+		73A231B0295FF431009FE017 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				73A231B3295FFD38009FE017 /* Next24HoursCard.swift */,
+				73A231BC2960108D009FE017 /* AlertCard.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		73AC123029610D3200E88854 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				73AC123129610D3E00E88854 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		73AC123329610D5F00E88854 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73A23182295FE09F009FE017 /* ContentView.swift */,
+				73A231AE295FF1EB009FE017 /* TimelineView.swift */,
+				73A231BE2960163C009FE017 /* Next24HoursView.swift */,
+				73A231D02960E483009FE017 /* DayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73AC123429610D6B00E88854 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				73A231AC295FED71009FE017 /* AnimatedIcon.swift */,
+				73AC123929611B7D00E88854 /* LocationCard_Loading.swift */,
+				73AC123729611AAC00E88854 /* LocationCard.swift */,
+				73A231CD2960DDEA009FE017 /* HeaderCard.swift */,
+				73A231B529600308009FE017 /* Connector.swift */,
+				73A231C52960214A009FE017 /* GeometryGetter.swift */,
+				73A231C8296023F5009FE017 /* TextWithUnit.swift */,
+				73A231D22960E913009FE017 /* IconStack.swift */,
+				73A231D42960EEBC009FE017 /* HourCard.swift */,
+				73FF5EB6296267C400D690BE /* DayCard.swift */,
+				73A231B0295FF431009FE017 /* Timeline */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		73FF5EAE2961873100D690BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73AC12292961077700E88854 /* ColorSchemeExtension.swift */,
+				73AC123529610E7900E88854 /* AnimtedIconExtension.swift */,
+				73FF5EAC29615F2B00D690BE /* WeatherDescriptionExtension.swift */,
+				73FF5EB42961897500D690BE /* WeatherIsPrecipExtension.swift */,
+				73FF5EBD2962CA7700D690BE /* DayWeatherHourly.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73FF5EB32961885F00D690BE /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				73FF5EB12961884F00D690BE /* WeatherSummaryFunction.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		73FF5EB82962C25A00D690BE /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				73FF5EB92962C26700D690BE /* HourCard_Wrapper.swift */,
+			);
+			path = Wrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +386,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A231C62960214A009FE017 /* GeometryGetter.swift in Sources */,
+				73FF5EBA2962C26700D690BE /* HourCard_Wrapper.swift in Sources */,
+				73A231CE2960DDEA009FE017 /* HeaderCard.swift in Sources */,
+				73A231B4295FFD38009FE017 /* Next24HoursCard.swift in Sources */,
+				73A231D32960E913009FE017 /* IconStack.swift in Sources */,
+				73A231AD295FED71009FE017 /* AnimatedIcon.swift in Sources */,
+				73AC123229610D3E00E88854 /* LocationManager.swift in Sources */,
+				73A231C9296023F5009FE017 /* TextWithUnit.swift in Sources */,
+				73FF5EAD29615F2B00D690BE /* WeatherDescriptionExtension.swift in Sources */,
 				73A23183295FE09F009FE017 /* ContentView.swift in Sources */,
+				73A231BD2960108D009FE017 /* AlertCard.swift in Sources */,
+				73FF5EB7296267C400D690BE /* DayCard.swift in Sources */,
+				73FF5EBE2962CA7700D690BE /* DayWeatherHourly.swift in Sources */,
+				73A231AF295FF1EC009FE017 /* TimelineView.swift in Sources */,
+				73AC123829611AAC00E88854 /* LocationCard.swift in Sources */,
+				73A231D52960EEBC009FE017 /* HourCard.swift in Sources */,
+				73A231B629600308009FE017 /* Connector.swift in Sources */,
 				73A23181295FE09F009FE017 /* Weather_TimelineApp.swift in Sources */,
+				73AC123629610E7900E88854 /* AnimtedIconExtension.swift in Sources */,
+				73AC123A29611B7D00E88854 /* LocationCard_Loading.swift in Sources */,
+				73FF5EB52961897500D690BE /* WeatherIsPrecipExtension.swift in Sources */,
+				73FF5EB22961884F00D690BE /* WeatherSummaryFunction.swift in Sources */,
+				73AC122A2961077700E88854 /* ColorSchemeExtension.swift in Sources */,
+				73A231D12960E483009FE017 /* DayView.swift in Sources */,
+				73A231BF2960163C009FE017 /* Next24HoursView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,17 +566,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Weather Timeline/Weather Timeline.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather Timeline/Preview Content\"";
 				DEVELOPMENT_TEAM = FHZJYDS36L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Timeline-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Timeline";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,17 +600,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Weather Timeline/Weather Timeline.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather Timeline/Preview Content\"";
 				DEVELOPMENT_TEAM = FHZJYDS36L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Timeline-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather Timeline";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
